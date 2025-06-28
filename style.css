@@ -1,0 +1,74 @@
+/* ベーススタイル */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* ヘッダー */
+header {
+  background-color: #2a2a2a;
+  padding: 20px 0;
+  border-bottom: 2px solid #444;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+}
+
+/* グローバルメニュー */
+nav {
+  margin-top: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li a {
+  font-size: 16px;
+  color: #ccc;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.menu li a:hover {
+  background-color: #444;
+  color: #fff;
+}
+
+/* メインコンテンツ */
+.main-content {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.main-content h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.main-content p {
+  font-size: 16px;
+  color: #ccc;
+}
